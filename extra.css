@@ -21,10 +21,6 @@
     font-size: 1.4rem;
     color: #fff;
 }
-.custom-header-bar .header-logo {
-    width: 86px;   /* zmień na potrzebę */
-    height: 86px;
-}
 .custom-header-bar .header-center {
     flex: 1;
     display: flex;
@@ -40,8 +36,7 @@
 .md-search__form {
     box-shadow: 0 1px 7px rgba(0,0,0,0.06);
     border-radius: 2.2em;
-    min-width: 320px;
-    max-width: 450px;
+    width: clamp(200px, 25vw, 300px);
     background: #fdfdf7;
     border: 1px solid #e0ebd5;
 }
