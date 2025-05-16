@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>Noneen/</loc>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/en/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/en/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/en/index.html"/>
     </url>
     <url>
-        <loc>Noneen/iris/</loc>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/en/iris/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/iris/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/en/iris/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/en/iris/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/en/iris/index.html"/>
     </url>
     <url>
-        <loc>Noneen/titanic/</loc>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/en/titanic/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/titanic/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/en/titanic/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/en/titanic/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/en/titanic/index.html"/>
     </url>
     <url>
-        <loc>Nonepl/</loc>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/pl/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonepl/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/pl/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/pl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/pl/index.html"/>
     </url>
     <url>
-        <loc>Nonepl/iris/</loc>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/pl/iris/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonepl/iris/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/pl/iris/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/pl/iris/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/pl/iris/index.html"/>
     </url>
     <url>
-        <loc>Nonepl/titanic/</loc>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/pl/titanic/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonepl/titanic/"/>
-        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/pl/titanic/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/pl/titanic/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/pl/titanic/index.html"/>
     </url>
     <url>
-        <loc>Nonepl/en/</loc>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/pl/en/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/en/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/en/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/en/index.html"/>
     </url>
     <url>
-        <loc>Nonepl/en/iris/</loc>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/pl/en/iris/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/en/iris/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/iris/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/en/iris/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/en/iris/index.html"/>
     </url>
     <url>
-        <loc>Nonepl/en/titanic/</loc>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/pl/en/titanic/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/en/titanic/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Noneen/titanic/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/en/titanic/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/en/titanic/index.html"/>
     </url>
     <url>
-        <loc>Nonepl/pl/</loc>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/pl/pl/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/pl/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonepl/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/pl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/pl/index.html"/>
     </url>
     <url>
-        <loc>Nonepl/pl/iris/</loc>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/pl/pl/iris/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/pl/iris/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonepl/iris/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/pl/iris/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/pl/iris/index.html"/>
     </url>
     <url>
-        <loc>Nonepl/pl/titanic/</loc>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/pl/pl/titanic/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="pl" href="Nonepl/pl/titanic/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="Nonepl/titanic/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/pl/titanic/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/pl/titanic/index.html"/>
     </url>
 </urlset>
