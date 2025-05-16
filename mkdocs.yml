@@ -3,6 +3,12 @@ site_author: Rafal Ney
 site_description: >-
   Portfolio moich wspaniałych projektów z Data Science i AI :-)
 
+repo_name: RafalNey
+repo_url: https://github.com/RafalNey/ds_ai_portfolio
+
+site_url: https://rafalney.github.io/ds_ai_portfolio/
+use_directory_urls: false
+
 docs_dir: docs
 
 theme:
@@ -30,6 +36,7 @@ plugins:
         - en
         - pl
   - i18n:
+      base_path: /ds_ai_portfolio/
       languages:
         - locale: pl
           name: "🇵🇱 Polski"
