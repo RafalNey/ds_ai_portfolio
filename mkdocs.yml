@@ -1,0 +1,105 @@
+site_name: Portfolio
+site_author: Rafal Ney
+site_description: >-
+  Portfolio moich wspaniałych projektów z Data Science i AI :-)
+
+docs_dir: docs
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    primary: light green
+    scheme: default # możesz zmienić na 'slate' dla ciemnego
+  language: pl
+  features:
+    - navigation.top
+    - search
+
+extra_css:
+  - extra.css
+
+extra_javascript:
+  - https://unpkg.com/lunr/lunr.js
+  - https://unpkg.com/lunr-languages/lunr.stemmer.support.js
+  - https://unpkg.com/lunr-languages/lunr.pl.js
+
+plugins:
+  - search:
+      lang:
+        - en
+        - pl
+  - i18n:
+      languages:
+        - locale: pl
+          name: "🇵🇱 Polski"
+          build: true
+          default: false
+        - locale: en
+          name: "🇬🇧 English"
+          build: true
+          default: true
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+nav:
+  - Polish:
+      - Strona główna: pl/index.md
+      - Iris: pl/iris/index.md
+      - Titanic: pl/titanic/index.md
+  - English:
+      - Home: en/index.md
+      - Iris: en/iris/index.md
+      - Titanic: en/titanic/index.md
+# site_name: Portfolio
+# site_author: Rafal Ney
+# site_description: >-
+#   Portfolio moich wspaniałych projektów z Data Science i AI :-)
+
+# docs_dir: docs
+
+# theme:
+#   name: material
+#   custom_dir: "overrides"
+#   palette:
+#     primary: light green
+#   #language: pl
+#   features:
+#     - search
+#     - navigation.instant
+
+# extra_css:
+#   - extra.css
+
+# plugins:
+#   - search:
+#       lang:
+#         - en
+#         - pl
+#   - i18n:
+#       #default_language: en
+#       languages:
+#         - locale: pl
+#           name: "🇵🇱 Polski"
+#           build: true
+#           default: false
+#         - locale: en
+#           name: "🇬🇧 English"
+#           build: true
+#           default: true
+
+# markdown_extensions:
+#   - attr_list
+#   - md_in_html
+
+# nav:
+#   - Polish:
+#       - Strona główna: pl/index.md
+#       - Iris: pl/iris/index.md
+#       - Titanic: pl/titanic/index.md
+#   - English:
+#       - Home: en/index.md
+#       - Iris: en/iris/index.md
+#       - Titanic: en/titanic/index.md

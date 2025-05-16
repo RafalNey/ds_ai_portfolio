@@ -1,0 +1,24 @@
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid">
+
+    <!-- LEWA sekcja: Flagi -->
+    <div class="md-header__title header-left">
+      <a href="/pl/" aria-label="Polski" title="Polski" class="md-header__button">🇵🇱</a>
+      <a href="/en/" aria-label="English" title="English" class="md-header__button">🇬🇧</a>
+    </div>
+
+    <!-- ŚRODKOWA sekcja: Logo + napis -->
+    <div class="header-center">
+      <a href="/" class="md-header__button md-logo" aria-label="Strona główna">
+        <img src="/img/logo.png" alt="Logo" class="header-logo" />
+      </a>
+      <span class="header-title">Portfolio</span>
+    </div>
+
+    <!-- PRAWA sekcja: Wyszukiwarka -->
+    <div class="header-right">
+      {% include "partials/search.html" %}
+    </div>
+
+  </nav>
+</header>
