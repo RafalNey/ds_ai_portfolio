@@ -1,138 +1,162 @@
 /* Pasek nagłówka */
 .custom-header-bar {
-    width: 100vw;
-    min-height: 60px;
-    background: #81c784;    /* jasnozielony (material light green 300) */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 2px solid #d1abab; /* delikatna linia */
-    position: relative;    /* ważne dla absolutnego pozycjonowania */
-    z-index: 1001;
-    box-shadow: 0 2px 4px rgba(245, 242, 242, 0.02);
+  width: 100vw;
+  min-height: 60px;
+  background: #81c784;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #d1abab;
+  position: relative;
+  z-index: 1001;
+  box-shadow: 0 2px 4px rgba(245, 242, 242, 0.02);
 }
 .custom-header-bar .header-left {
-    display: flex;
-    align-items: center;
-    gap: .75rem;
-    margin-left: 2.5rem;
-    font-weight: bold;
-    letter-spacing: 0.02em;
-    font-size: 1.4rem;
-    color: #fff;
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin-left: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  font-size: 1.4rem;
+  color: #fff;
 }
 .custom-header-bar .header-center {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 0rem;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
 }
 .custom-header-bar .header-right {
-    display: flex;
-    align-items: center;
-    gap: .75rem;
-    margin-right: 2.5rem;
-}
-.md-search__form {
-    box-shadow: 0 1px 7px rgba(0,0,0,0.06);
-    border-radius: 2.2em;
-    width: clamp(200px, 25vw, 300px);
-    background: #fdfdf7;
-    border: 1px solid #e0ebd5;
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin-right: 2.5rem;
 }
 .header-right span {
-    color: #fff;
-    font-size: 1.1rem;
-    margin-right: 2px;
+  color: #fff;
+  font-size: 1.1rem;
+  margin-right: 2px;
 }
 .header-right a {
-    font-size: 1.8rem;
-    margin: 0 2px;
-    filter: drop-shadow(1px 1px 0 #b2ff59) drop-shadow(0 2px 0 #388e3c22);
-    transition: transform .1s;
+  font-size: 1.8rem;
+  margin: 0 2px;
+  filter: drop-shadow(1px 1px 0 #b2ff59) drop-shadow(0 2px 0 #388e3c22);
+  transition: transform .1s;
 }
 .header-right a:hover {
-    transform: scale(1.1) rotate(-3deg);
+  transform: scale(1.1) rotate(-3deg);
+}
+.header-title {
+  font-size: 1.6rem; /* Dostosuj wartość w razie potrzeby */
+  color: #fff;
+  margin-left: 1rem; /* Dodaj margines, aby odsunąć napis od pola wyszukiwania */
+}
+.header-center {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex: 1.5;
 }
 .centered-content {
-    text-align: justify;
-    max-width: unset;
-    margin-left: 0;
-    margin-right: auto;
-    padding-right: 12rem; /* lub inna wartość odstępu z prawej */
-    padding-left: 0;
-  }
-  .md-header__option {
-    display: flex;
-    align-items: center;
-    margin-left: 1rem;
-    font-size: 1.1rem;
-  }
-  /* Dopasowanie wysokości i rozmieszczenia */
+  text-align: justify;
+  max-width: unset;
+  margin-left: 0;
+  margin-right: auto;
+  padding-right: 12rem;
+  padding-left: 0;
+}
+.md-header__option {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
 .md-header__inner {
-    align-items: center;
-  }
-  
-  /* Mniejsze flagi */
-  .md-header__title .md-header__button {
-    font-size: 1.7rem;
-    padding: 0 0.3rem;
-  }
-  
-  /* Wyrównanie logo + tekstu */
-  .md-header__topic {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  /* Wyśrodkowana sekcja środkowa (logo + tytuł) */
-.header-center {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    gap: 0.0 rem;
-    color: white;
-    font-size: 1.6rem;
-    font-weight: bold;
-    letter-spacing: 0.03em;
+  align-items: center;
 }
-
-/* Stylizacja tytułu */
+.md-header__title .md-header__button {
+  font-size: 1.7rem;
+  padding: 0 0.3rem;
+}
+.md-header__topic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .header-title {
-    color: #fff;
-}
-/* Naprawa pozycji wyszukiwarki po kliknięciu */
-.md-search__form:focus-within {
-    position: static !important;
-    transform: none !important;
-    margin: 0 !important;
-    left: auto !important;
-    right: auto !important;
-    top: auto !important;
-    width: auto !important;
-    max-width: 450px !important;
-    border-radius: 2.2em !important;
-    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.06) !important;
-    z-index: 1;
-}
-/* Naprawa przesuwania i rozciągania wyszukiwarki po kliknięciu */
-.md-search.md-search--active {
-    position: relative !important;
-    left: 0 !important;
-    right: 0 !important;
-    top: 0 !important;
-    transform: none !important;
-    width: auto !important;
-    max-width: 450px !important;
-    margin: 0 auto !important;
-    z-index: 1 !important;
+  color: #fff;
 }
 
+/* Stylizacja wyszukiwarki */
+.md-search__form {
+  position: relative;
+  border-radius: 2em;
+  background: #fdfdf7;
+  border: 1px solid #e0ebd5;
+  width: 100%;
+  max-width: 280px;
+  min-width: 200px;
+  padding-left: 2.2em; /* miejsce na lupę */
+  height: 2.4em;
+  display: flex;
+  align-items: center;
+}
+.md-search__input {
+  width: 100% !important;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+}
+
+/* LUPA widoczna, szara, dobrze umieszczona */
+.md-search__icon {
+  vertical-align: middle;
+  margin-top: 0.3em; /* Dostosuj wartość w razie potrzeby */
+  position: absolute;
+  left: 0.7em;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666666 !important;
+  display: block !important;
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+/* Poprawki pozycji po kliknięciu */
+.md-search__form:focus-within {
+  position: static !important;
+  transform: none !important;
+  margin: 0 !important;
+  width: auto !important;
+  max-width: 450px !important;
+  border-radius: 2.2em !important;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.06) !important;
+  z-index: 1;
+}
+.md-search.md-search--active {
+  position: relative !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 0 !important;
+  transform: none !important;
+  width: auto !important;
+  max-width: 450px !important;
+  margin: 0 auto !important;
+  z-index: 1 !important;
+}
+
+/* Responsywność — desktop/tablet */
 @media screen and (min-width: 768px) {
-    /* Usuń dialogowe przesuwanie wyszukiwarki na desktopie */
-    .md-search[role="dialog"] {
+  .md-search[role="dialog"] {
       position: static !important;
       inset: auto !important;
       margin: 0 !important;
@@ -142,25 +166,15 @@
       background: transparent !important;
       box-shadow: none !important;
       z-index: auto !important;
-    }
-  
-    /* Ukryj overlay który ciemni tło */
-    .md-search__overlay {
-      display: none !important;
-    }
-  
-    /* Utrzymaj zaokrąglenia i styl inputa */
-    .md-search__form {
-      border-radius: 2.2em !important;
-      background: #fdfdf7 !important;
-      border: 1px solid #e0ebd5 !important;
-      box-shadow: 0 1px 7px rgba(0,0,0,0.06) !important;
-      padding-left: 0.6em;
-    }
-  
-    /* Opcjonalnie: nadaj inputowi sensowną szerokość */
-    .md-search__input {
-      width: 100% !important;
-    }
   }
-  
+  .md-search__overlay {
+      display: none !important;
+  }
+}
+
+/* Responsywność — ukrycie wyszukiwarki na małych ekranach */
+@media screen and (max-width: 767px) {
+  .md-search {
+      display: none !important;
+  }
+}
