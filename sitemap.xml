@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/index.html</loc>
+        <lastmod>2025-05-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/index.html"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/index.html"/>
+    </url>
+    <url>
         <loc>https://rafalney.github.io/ds_ai_portfolio/en/index.html</loc>
         <lastmod>2025-05-16</lastmod>
         <changefreq>daily</changefreq>
@@ -41,6 +48,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/pl/titanic/index.html"/>
         <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/pl/titanic/index.html"/>
+    </url>
+    <url>
+        <loc>https://rafalney.github.io/ds_ai_portfolio/pl/index.html</loc>
+        <lastmod>2025-05-16</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://rafalney.github.io/ds_ai_portfolio/pl/index.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rafalney.github.io/ds_ai_portfolio/index.html"/>
     </url>
     <url>
         <loc>https://rafalney.github.io/ds_ai_portfolio/pl/en/index.html</loc>
