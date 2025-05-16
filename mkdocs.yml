@@ -5,7 +5,6 @@ site_description: >-
 
 repo_name: RafalNey
 repo_url: https://github.com/RafalNey/ds_ai_portfolio
-
 site_url: https://rafalney.github.io/ds_ai_portfolio/
 use_directory_urls: false
 
@@ -36,7 +35,7 @@ plugins:
         - en
         - pl
   - i18n:
-      base_path: /ds_ai_portfolio/
+      # base_path: /ds_ai_portfolio/
       languages:
         - locale: pl
           name: "🇵🇱 Polski"
